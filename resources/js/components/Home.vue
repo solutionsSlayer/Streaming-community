@@ -7,7 +7,7 @@
             <div 
                 class="carousel-inner position-relative linear"
                 style="height: 95vh;" >
-                 <div class="center text-white text-center fw-bold">
+                <div class="center text-white text-center fw-bold">
                     <p class="fs-4">Streaming Community a pour but d'informer de l'actualité de twitch,</p>
                     <p class="fs-4">de mettre en avant les créateurs qui débutent mais également de partager de bons moments entre créateurs et abonnés !</p>
                 </div>

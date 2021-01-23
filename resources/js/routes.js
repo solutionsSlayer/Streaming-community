@@ -3,7 +3,8 @@ import VueRouter from 'vue-router'
 
 import Home from './components/Home.vue'
 import Event from './pages/Event.vue'
-import Partner from './pages/partners/Partner.vue'
+import Partners from './pages/partners/partners.vue'
+import StreamerList from './pages/streamers/StreamerList.vue'
 import ListArticle from './pages/articles/ListArticle.vue'
 import App from './App.vue'
 
@@ -27,12 +28,17 @@ const routes = [
             {
                 name: 'partner',
                 path: '/partners',
-                component: Partner
+                component: Partners
             },
             {
                 name: 'articles',
                 path: '/articles',
                 component: ListArticle
+            },
+            {
+                name: 'streamer-list',
+                path: '/streamers',
+                component: StreamerList
             }
             
         ]
