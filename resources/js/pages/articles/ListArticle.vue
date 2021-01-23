@@ -6,17 +6,20 @@
         <section class="container">
             <article class="articles-list">
                 <div
-                class="article"
-                v-for="(article, i) in articles"
-                :key="i">
-                    <figure class="figure col-4">
-                        <img class="img-thumbnail img-fluid" :src="article.img" :alt="article.description">
-                    </figure>
-                    <div class="col-8">
-                        <h3>{{ article.title }}</h3>
-                        <p>{{ article.description }}</p>
-
+                    v-for="(article, i) in articles"
+                    :key="i">
+                    <div class="article">
+                        <figure class="figure col-4">
+                            <img class="img-thumbnail img-fluid" :src="article.img" :alt="article.description">
+                        </figure>
+                        <div class="col-8">
+                            <h3>{{ article.title }}</h3>
+                            <p>{{ article.description }}</p>
+                        </div>
                     </div>
+                    <span class="article-link">
+                        <a class="w-full" href="#">Lire la suite...</a>
+                    </span>
                 </div> 
             </article>
         </section>
@@ -67,12 +70,18 @@ export default {
         max-width: 1200px;
     }
     h1 {
-        margin: 20px 0;
+        margin: 40px 0;
         text-align: center;
         color: rgb(102, 59, 143);
     }
+    .article-link {
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+        color: rgb(102, 59, 143);
+    }
     #articles {
-        margin-top: 20vh;
+        margin-top: 15vh;
     }
     .article {
         display: flex;
