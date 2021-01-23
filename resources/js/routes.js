@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Home from './components/Home.vue'
 import Event from './pages/Event.vue'
 import Partner from './pages/partners/Partner.vue'
+import ListArticle from './pages/articles/ListArticle.vue'
 import App from './App.vue'
 
 Vue.use(VueRouter)
@@ -27,6 +28,11 @@ const routes = [
                 name: 'partner',
                 path: '/partners',
                 component: Partner
+            },
+            {
+                name: 'articles',
+                path: '/articles',
+                component: ListArticle
             }
             
         ]

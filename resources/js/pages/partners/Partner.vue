@@ -18,7 +18,7 @@
                     <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" alt="Sample">
                     <h4 class="mb-0"><span class="badge badge-primary badge-pill badge-news">New</span></h4>
                     <a href="#!">
-                     <div class="mask rgba-white-slight"></div>
+                    <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
 
