@@ -1,6 +1,6 @@
 <template>
-    <div id="streamer" class="wrapper space-section">
-        <section>
+    <div class="wrapper space-section">
+        <section id="streamers">
             <h1 class="mb-0">Streamers</h1>
 
             <div>

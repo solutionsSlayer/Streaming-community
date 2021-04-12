@@ -6,6 +6,9 @@ import Event from './pages/Event.vue'
 import Partners from './pages/partners/partners.vue'
 import StreamerList from './pages/streamers/StreamerList.vue'
 import ListArticle from './pages/articles/ListArticle.vue'
+
+import Login from './pages/login.vue'
+
 import App from './App.vue'
 
 Vue.use(VueRouter)
@@ -39,6 +42,11 @@ const routes = [
                 name: 'streamer-list',
                 path: '/streamers',
                 component: StreamerList
+            },
+            {
+                name: 'login',
+                path: '/login',
+                component: Login
             }
             
         ]

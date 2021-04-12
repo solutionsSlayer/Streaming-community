@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/{vue_capture?}', function () { return view('welcome'); })->where('vue_capture', '[\/\w\.-]*');
+Route::get('/{all}', 'IndexController@index')->where('all', '^((?!api).)*');
